@@ -39,3 +39,21 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Machine Learning Model Files (large files - use Git LFS or exclude)
+python_model/*.h5
+python_model/*.pkl
+*.h5
+*.pkl
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/

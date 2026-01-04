@@ -1,0 +1,20 @@
+# Python model files (large, don't commit to git)
+python_model/tokenizer.pkl
+python_model/caption_trained_model.h5
+python_model/*.h5
+python_model/*.pkl
+
+# Python virtual environment
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Temporary files
+*.tmp
+*.temp
